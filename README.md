@@ -20,6 +20,12 @@ composer install
 php artisan migrate:fresh --seed 
 ```
 
+- ### Run Storage Link
+
+```bash
+php artisan storage:link
+```
+
 - ### Run Server
 
 ```bash

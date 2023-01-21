@@ -18,10 +18,4 @@ class Job extends Model
         return $this->belongsTo(Project::class);
     }
 
-//    public function jobWithProject()
-//    {
-//        return $this->whereHas('project', function ($query) {
-//            $query->where('price', '<', 100);
-//        })->get();
-//    }
 }
